@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Montserrat", serif;
+     
+}
+.main{
+    width: 100%;
+    background-image: url("./background.avif");
+    background-position:center;
+    background-size:cover ;
+    height: 390px;
+}
+ ul li a:hover{
+    color: rgb(228, 6, 6);
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 5px;
+    margin: auto;
+}
+ul li {
+    list-style:none ;
+    display: inline-flex;
+    margin: 5px;
+    padding: 10px;
+
+}
+ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: brown;
+}
+.logo{
+    width: 89px;
+    margin: 13px;
+}
+.info{
+    margin-left: 14%;
+    margin-top: 13%;
+}
+.info span{
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: bolder;
+}
+pre{
+    margin: 5px;
+    text-decoration:underline;
+}
+.prsn{
+    width: 400px;
+    height: 171px;
+    position: absolute;
+    right: 1px;
+    margin-top: -19%;
+}
+.prsn img {
+    height: 105%;
+    position: absolute;
+    left: 51%;
+    transform: translate(-50%);
+    transition: left 2s ease;
+
+}
+.prsn:hover{
+    left: 55%;
+}
+.box{
+    background-color: azure;
+    margin-left: 7%;}
+
+    .box img{
+
+    width:400px;
+    margin:5px;
+}
+.box img :hover{
+    scale: 1.05;
+}
+.h3{
+    text-align: center;
+    background-color: bisque;
+    color: aliceblue;
+}
+.row{
+    display: flex;
+    margin-top: 5px;
+}
+.col{
+    width:300px;
+    height:310px;
+    border:2px ridge cadetblue;
+    margin :20px;
+    margin-left:50px;
+    background: linear-gradient( to Top rgb(151, 190, 192) 50%,light rgb(226, 226, 143)50%);
+    background-size: 100% 200%;
+    transition: all 1.2s;
+}
+.col:hover{
+    background-position: bottom;
+    box-shadow: 4px  6px 10px cadetblue;
+}
+  .col img{
+      width:200px;
+margin-left:100px;
+    }
+    .col h5{
+        text-align:center;
+        text-decoration: underline;
+        font-size: 20px;
+        color: cadetblue;
+}
+.col p{
+    text-align: justify;
+    padding: 4px;
+}
+form{width:100%;
+margin:10px;}
+button{
+    background-color:black;
+    color: aliceblue;
+    cursor:pointer;
+    padding: 5px;
+}
+.cv{
+    background-color: brown;
+    color: aliceblue;
+    padding: 0px;
+    margin-left: 345px;
+    margin: 350px;
+}
